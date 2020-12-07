@@ -11,6 +11,7 @@ import android.view.View;
 import com.example.apptest1.R;
 import com.example.apptest1.base.BaseActivity;
 import com.example.apptest1.databinding.ActivityMainBinding;
+import com.example.kairylib.MyUtils;
 
 public class MainActivity extends BaseActivity<ActivityMainBinding> {
 
@@ -25,6 +26,7 @@ public class MainActivity extends BaseActivity<ActivityMainBinding> {
 
     @Override
     protected void initData() {
+        String str = MyUtils.getScreenHeight();
     }
 
     @Override
