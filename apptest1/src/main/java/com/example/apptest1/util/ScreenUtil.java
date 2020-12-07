@@ -26,6 +26,7 @@ public class ScreenUtil {
 
     private static int navigationBarHeight = 0;
     private static int SOFT_INPUT_HEIGHT = 0;
+    private static int testMyK = 0;
 
     public static boolean checkNavigationBarShow(@NonNull Context context, @NonNull Window window) {
         boolean show;
@@ -45,7 +46,6 @@ public class ScreenUtil {
         }
         return show;
     }
-
 
 
     public static int getScreenHeight(Context context) {
@@ -99,6 +99,7 @@ public class ScreenUtil {
 
     /**
      * 获取屏幕内容高度
+     *
      * @param activity
      * @return
      */
@@ -117,6 +118,7 @@ public class ScreenUtil {
 
     /**
      * dp转px
+     *
      * @param context
      * @param dipValue
      * @return
