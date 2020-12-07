@@ -1,0 +1,13 @@
+include ':picture_library'
+include ':ucrop'
+include ':AliyunResample'
+include ':AliyunCrop:snap_crop'
+include ':AliyunSnap:snap_demo'
+include ':AliyunSVideoBase'
+include ':AliyunRecorder:snap_record'
+include ':AliyunVideoCommon'
+include ':PullRefreshLibrary'
+include ':hexibusbase'
+include ':apptest1'
+include ':app'
+rootProject.name = "My Application"

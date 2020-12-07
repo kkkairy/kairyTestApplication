@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:id="@+id/ll_parent"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:transitionName="@string/parent_view">
+
+        <TextView
+            android:id="@+id/tv_back"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp50"
+            android:background="@color/text_color_FF5858"
+            android:gravity="center"
+            android:paddingTop="20dp"
+            android:text="切换"
+            android:textColor="@color/white"
+            android:textSize="@dimen/sp_14" />
+
+        <com.flyco.tablayout.SlidingTabLayout
+            android:id="@+id/tab_title"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp40"
+            android:background="@color/white"
+            app:tl_indicator_color="@color/text_color_FF5858"
+            app:tl_indicator_height="@dimen/dp2"
+            app:tl_indicator_width="@dimen/dp25"
+            app:tl_indicator_width_equal_title="true"
+            app:tl_tab_space_equal="true"
+            app:tl_textSelectColor="@color/text_color_333"
+            app:tl_textUnselectColor="@color/text_color_ccc" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp5"
+            android:background="@color/color_f8f8f8" />
+
+        <androidx.viewpager.widget.ViewPager
+            android:id="@+id/vp_content"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="@color/white"
+            android:visibility="visible" />
+    </LinearLayout>
+</layout>

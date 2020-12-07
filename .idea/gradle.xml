@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleMigrationSettings" migrationVersion="1" />
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="testRunner" value="PLATFORM" />
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="gradleJvm" value="1.8" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/AliyunCrop" />
+            <option value="$PROJECT_DIR$/AliyunCrop/snap_crop" />
+            <option value="$PROJECT_DIR$/AliyunRecorder" />
+            <option value="$PROJECT_DIR$/AliyunRecorder/snap_record" />
+            <option value="$PROJECT_DIR$/AliyunResample" />
+            <option value="$PROJECT_DIR$/AliyunSVideoBase" />
+            <option value="$PROJECT_DIR$/AliyunSnap" />
+            <option value="$PROJECT_DIR$/AliyunSnap/snap_demo" />
+            <option value="$PROJECT_DIR$/AliyunVideoCommon" />
+            <option value="$PROJECT_DIR$/PullRefreshLibrary" />
+            <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/apptest1" />
+            <option value="$PROJECT_DIR$/hexibusbase" />
+            <option value="$PROJECT_DIR$/picture_library" />
+            <option value="$PROJECT_DIR$/ucrop" />
+          </set>
+        </option>
+        <option name="resolveModulePerSourceSet" value="false" />
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>
