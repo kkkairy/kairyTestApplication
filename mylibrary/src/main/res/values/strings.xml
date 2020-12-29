@@ -1,0 +1,171 @@
+<resources>
+    <string name="app_name" translatable="false">民度</string>
+    <string name="title_activity_scrolling" translatable="false">ScrollingActivity</string>
+
+    <string name="action_settings" translatable="false">Settings</string>
+    <string name="house_rule" translatable="false">吸烟:不允许吸烟\n宠物:不允许带宠物\n做饭:允许做饭\n聚会:不允许聚会\n加人:不允许加人\n商业拍摄:不可商业拍摄</string>
+    <string name="shi" translatable="false">室</string>
+    <string name="ting" translatable="false">厅</string>
+    <string name="wei" translatable="false">卫</string>
+    <string name="rent_unit" translatable="false">元/月</string>
+    <string name="ping" translatable="false">㎡</string>
+    <string name="ceng" translatable="false">层</string>
+    <string name="tao" translatable="false">套</string>
+    <string name="money_logo" translatable="false">¥</string>
+    <string name="fen" translatable="false">分</string>
+    <string name="ren" translatable="false">人</string>
+    <string name="zhang" translatable="false">张</string>
+    <string name="idCard" translatable="false">身份证号码：</string>
+    <string name="day" translatable="false">天</string>
+    <string name="day_rent" translatable="false">天起租</string>
+    <string name="mh" translatable="false">：</string>
+    <string name="yuan" translatable="false">元</string>
+    <string name="goods_name" translatable="false">商品名称：</string>
+    <string name="kd" translatable="false">快递</string>
+
+    <string name="vip_order_intro" translatable="false">在平台购物满%1$s元</string>
+    <string name="vip_intro" translatable="false">花费%1$s元</string>
+
+    <string name="cd_pt_one_step" translatable="false">支付开团\n或参团</string>
+    <string name="cd_pt_two_step" translatable="false">等待该穿搭其他单\n品拼团成功后发货</string>
+    <string name="cd_pt_three_step" translatable="false">该穿搭其他单品未\n拼团成功自动退款</string>
+    <string name="old_price_pay" translatable="false">原价：¥</string>
+
+    <string name="check_rules" translatable="false">
+        1、当您使用的是店铺优惠券时：实付款=（消费总额-店铺优惠券）x店铺折扣x平台会员折扣；\n2、当您使用的是平台优惠券时：实付款=（消费总额x店铺折扣-平台优惠券）x平台会员折扣。
+    </string>
+
+    <string name="custom_behavior" translatable="false">com.bingfor.cxs.utils.FlingBehavior</string>
+    <string name="pls_select_three_item">请选择三个生活场景,即可开启</string>
+    <string name="life_cut">生活剪影</string>
+    <string name="newlife_album">新生活-相册</string>
+    <string name="total_reply">共%d条回复</string>
+    <string name="more_reply">更多回复</string>
+    <string name="tandian">探店</string>
+    <string name="shop_circle">商圈</string>
+    <string name="AfterSaleTitle">退款售后详情</string>
+    <string name="HomeScreeningTitle">首页筛选结果</string>
+    <string name="PayForSuccessTitle">支付成功页面</string>
+    <string name="EditorRoadBookTitle">编辑路书</string>
+    <string name="ExchangeCodeTitle">兑换码</string>
+    <string name="ExperienceDetailTitle">经验明细</string>
+    <string name="MinDouCouponRedemptionTitle">民豆优惠券兑换</string>
+    <!--店铺动态详情-->
+    <string name="shop_trend_detail">店铺动态详情</string>
+    <string name="say_sth">说点什么吧</string>
+    <string name="focus">关注</string>
+    <string name="hot_recommend">热门推荐</string>
+    <string name="total_d_comment">共 %d 条评论</string>
+    <string name="comment">评论</string>
+    <string name="find_detail">查看详情</string>
+    <string name="find_more">发现更多</string>
+    <string name="news_find_bigpic">新闻查看大图</string>
+    <string name="cancel">取消</string>
+    <string name="pls_input_content">请输入内容</string>
+    <string name="near_qudian">附近趣店</string>
+    <string name="all_work">全部作品</string>
+    <string name="drafts">草稿箱</string>
+    <string name="distance_x_km">距我%skm</string>
+    <string name="loading">加载中...</string>
+    <string name="loading_fail">加载失败</string>
+    <string name="loading_end">到底啦</string>
+    <string name="time_zero">00:00</string>
+    <string name="no_comment">暂无评论</string>
+    <string name="no_good">暂无商品</string>
+    <string name="no_more_data">没有更多了</string>
+
+    <string name="social_contract">收起</string>
+    <string name="social_expend">展开</string>
+    <string name="social_text_target">网页链接</string>
+
+    <!--MessageList-->
+    <string name="aurora_font_fontFamily_medium">sans-serif</string>
+    <string name="aurora_file_not_found_toast">File not found</string>
+    <string name="aurora_symbol_second">\"</string>
+    <string name="aurora_avatar_desc">user avatar</string>
+
+    <!--TimeUtil-->
+    <string name="jmui_time_format_year_month_day">yyyy年-MM月-dd日</string>
+    <string name="jmui_time_format_accuracy">yyyy-MM-dd HH:mm:ss </string>
+    <string name="jmui_time_format_hours">HH:mm</string>
+    <string name="jmui_yesterday">昨天</string>
+    <string name="jmui_before_yesterday">前天</string>
+    <string name="jmui_before_dawn">凌晨</string>
+    <string name="jmui_morning">早上</string>
+    <string name="jmui_afternoon">下午</string>
+    <string name="jmui_night">晚上</string>
+    <string name="jmui_monday">周一</string>
+    <string name="jmui_tuesday">周二</string>
+    <string name="jmui_wednesday">周三</string>
+    <string name="jmui_thursday">周四</string>
+    <string name="jmui_friday">周五</string>
+    <string name="jmui_saturday">周六</string>
+    <string name="jmui_sunday">周日</string>
+    <string name="year">年</string>
+    <string name="jmui_month">月</string>
+    <string name="jmui_day">日</string>
+    <string name="second">秒</string>
+    <string name="comment_can_not_empty">评论不能为空</string>
+    <string name="focus_success">关注成功</string>
+    <string name="find_lifecut_count">为您找到%d组生活剪影</string>
+    <string name="change_next_trend">切换下一条推荐方案</string>
+    <string name="change_last_trend">切换上一条推荐方案</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="add_screen">添加场景</string>
+    <string name="add_screen_decs">请选择与主题相近的生活场景</string>
+    <string name="add_topic">参与话题</string>
+    <string name="add_topic_desc">请选择话题</string>
+    <string name="more_recommend">更多推荐</string>
+    <string name="more_recommend_desc">还可以种草好店和商品哦</string>
+    <string name="save_draft">存草稿</string>
+    <string name="release">发布</string>
+    <string name="release_pic">发布图片</string>
+    <string name="release_video">发布视频</string>
+    <string name="recommend_shop">推荐店铺</string>
+    <string name="recommend_goods">推荐商品</string>
+    <string name="reletive_tag">关联标签</string>
+    <string name="reletive_tag_most">（最多可关联4个标签）</string>
+    <string name="choose_reletive_tag_most">最多可关联%d个标签</string>
+    <string name="please_choose">请选择</string>
+    <string name="confirm">确认</string>
+    <string name="confirm_create">确定创建</string>
+    <string name="mismatches_topic">#没有匹配话题#</string>
+    <string name="add_new_topic">添加新话题</string>
+    <string name="hide_topic">不选择话题</string>
+    <string name="hide_address">不显示地址</string>
+    <string name="drag_goods">选择可添加商品，拖动可移动或轻点删除</string>
+    <string name="drag_shop">单击选择好店，拖动排序，再次轻点删除</string>
+    <string name="choose_goods_max">最多可选6款商品</string>
+    <string name="choose_shop_max">最多可推荐3家好店</string>
+    <string name="money_unit">¥</string>
+    <string name="money_unit_up">起</string>
+    <string name="choosed_shop">已选择%d家店铺</string>
+    <string name="choosed_goods">已选择%d款商品</string>
+    <string name="discuss_num">%d人参与讨论</string>
+
+    <string name="type_of_network">当前为移动网络，播放将消耗%s流量</string>
+    <string name="go_on_play">继续播放</string>
+    <string name="optimal_product_recommendations">优品推荐</string>
+    <string name="good_store_recommend">好店推荐</string>
+    <string name="video_compress">视频压缩中</string>
+    <string name="distance_from_me">距我&#060;%sm</string>
+    <string name="check_not_pass">审核未通过</string>
+    <string name="check_not_pass_reason">原因：</string>
+    <string name="retry_edit">重新编辑</string>
+    <string name="delete">删除</string>
+    <string name="not_delete">不删除</string>
+    <string name="confirm_delete">确认删除</string>
+    <string name="dynamic_delete">动态内容删除后将不可恢复</string>
+
+    <!--    商铺数据-->
+    <string name="stFans">人关注</string>
+    <string name="title_style">风格</string>
+
+    <!-- 融云   图库-->
+    <string name="rc_plugin_image">图库</string>
+    <string name="rc_conversation_list_empty_prompt">\n还没有消息哦～</string>
+
+</resources>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- 设置背景色 （白色） -->
+    <item android:id="@android:id/background">
+        <shape>
+            <corners android:radius="@dimen/dp_7" />
+
+            <gradient
+                android:angle="180"
+                android:startColor="#20F54F76"
+                android:endColor="#20F54F76"
+                android:type="linear"  />
+        </shape>
+    </item>
+
+    <!-- 设置进度条颜色（橙色） -->
+    <item android:id="@android:id/progress">
+        <scale android:scaleWidth="100%">
+            <shape>
+                <corners android:radius="@dimen/dp_7" />
+
+                <gradient
+                    android:angle="180"
+                    android:startColor="@color/color_f54f76"
+                    android:endColor="@color/color_ff5858"
+                    android:type="linear"  />
+            </shape>
+        </scale>
+    </item>
+
+</layer-list>

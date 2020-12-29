@@ -1,0 +1,322 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/white</item>
+        <item name="colorPrimaryDark">@color/white</item>
+        <item name="colorAccent">@color/white</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowBackground">@color/windowBackground</item>
+    </style>
+
+    <style name="FullScreen" parent="AppTheme">
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:fitsSystemWindows">true</item>
+        <!--<item name="android:windowBackground">@drawable/launche_activity_back</item>-->
+    </style>
+    <!--自定义linearlayout可以换行显示-->
+    <declare-styleable name="AutoLineFeedLinearLayout">
+        <!--每一行显示多少个-->
+        <attr name="auto_line_num" format="integer" />
+        <!--行与行之间的间距-->
+        <attr name="auto_line_top" format="dimension" />
+    </declare-styleable>
+
+    <style name="SplashTheme" parent="AppTheme">
+        <item name="android:windowBackground">@drawable/bg_splash</item>
+        <item name="android:fitsSystemWindows">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="SteepScreen" parent="AppTheme">
+        <!--<item name="android:windowFullscreen">true</item>-->
+    </style>
+
+    <!--底部popup-->
+    <style name="popupStyle" parent="android:Animation">
+        <item name="android:windowEnterAnimation">@anim/dialog_enter</item>
+        <item name="android:windowExitAnimation">@anim/dialog_exit</item>
+    </style>
+
+    <style name="AnimBottom" parent="@android:style/Animation">
+        <item name="android:windowEnterAnimation">@anim/push_bottom_in</item>
+        <item name="android:windowExitAnimation">@anim/push_bottom_out</item>
+    </style>
+
+    <style name="TabLayoutTextStyle">
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="TabLayoutTextStyleCenter">
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="TabLayoutTextStyleLarge">
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="TabLayoutTextStyleSmall">
+        <item name="android:textSize">13sp</item>
+    </style>
+
+    <style name="TabLayoutTextStyle15">
+        <item name="android:textSize">15sp</item>
+    </style>
+
+
+    <style name="TabLayoutTextStyleShop">
+        <item name="android:textSize">15sp</item>
+    </style>
+
+    <style name="VipTopTabLayoutSelect">
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="VipTopTabLayoutUnSelect">
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <!-- 对话框样式 -->
+    <style name="StyleDialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">false</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:backgroundDimEnabled">true</item>
+    </style>
+
+    <!--自定义dialog-->
+    <style name="CostumDialog" parent="android:style/Theme.Dialog">
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+    <style name="Divider">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/dp_half</item>
+        <item name="android:background">@color/color_eeeeee</item>
+        <item name="android:layout_marginLeft">@dimen/dp_15</item>
+        <item name="android:layout_marginRight">@dimen/dp_15</item>
+    </style>
+
+    <style name="divider">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/dp_half</item>
+        <item name="android:background">@color/color_eeeeee</item>
+    </style>
+
+
+    <style name="CheckDetailsTitleStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/text_12</item>
+        <item name="android:textColor">@color/text_color_777777</item>
+        <item name="android:layout_marginStart">@dimen/dp_15</item>
+    </style>
+
+    <style name="CheckDetailsContentStyle">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:gravity">right</item>
+        <item name="android:textSize">@dimen/text_12</item>
+        <item name="android:textColor">@color/text_color_333</item>
+        <item name="android:layout_marginEnd">@dimen/dp_15</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:ellipsize">end</item>
+    </style>
+
+    <!--  自定义评分控件背景  -->
+    <style name="RadingStyle" parent="@android:style/Widget.RatingBar">
+        <!-- 定义星星图片 -->
+        <item name="android:progressDrawable">@drawable/custom_rating_bar</item>
+        <!-- 根据自定义星星图片的大小,设置相应的值,否则可能显示不全 -->
+        <item name="android:minHeight">@dimen/dp_12</item>
+        <item name="android:stepSize">1</item>
+    </style>
+
+
+    <!--  新版通用加粗文字  -->
+    <style name="CustomBlodText">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/text_16</item>
+        <item name="android:includeFontPadding">false</item>
+        <item name="android:textColor">@color/text_color_222222</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_marginLeft">@dimen/dp_15</item>
+        <item name="android:layout_marginRight">@dimen/dp_15</item>
+    </style>
+
+    <!--J-->
+    <style name="AppTheme1" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/white</item>
+        <item name="colorPrimaryDark">@color/white</item>
+        <item name="colorAccent">@color/white</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+    </style>
+
+    <style name="FullStatusBarTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/transparent</item>
+        <item name="colorPrimaryDark">@color/transparent</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+        <item name="android:windowBackground">@color/transparent</item>
+        <item name="android:windowIsTranslucent">false</item>
+        <item name="android:windowFullscreen">false</item>
+    </style>
+
+
+    <style name="ChatMessageInfo">
+        <item name="android:textSize">11sp</item>
+    </style>
+
+    <style name="ChatHeaderTitle">
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="aurora_msgitem_receive_style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingBottom">8dp</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <style name="aurora_msgitem_date_style">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:paddingLeft">4dp</item>
+        <item name="android:paddingRight">4dp</item>
+        <item name="android:paddingTop">4dp</item>
+        <item name="android:paddingBottom">4dp</item>
+    </style>
+
+    <style name="aurora_msgitem_receiver_display_name_style">
+        <item name="android:ems">5</item>
+        <item name="android:layout_marginLeft">3dp</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:textColor">#545454</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:visibility">visible</item>
+    </style>
+
+    <style name="aurora_msgitem_sender_display_name_style">
+        <item name="android:ems">5</item>
+        <item name="android:layout_marginRight">3dp</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:textColor">#545454</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:visibility">visible</item>
+    </style>
+
+    <style name="aurora_msgitem_send_style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingBottom">8dp</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <style name="aurora_msgitem_receiver_avatar_style">
+        <item name="android:layout_width">@dimen/aurora_width_msg_avatar</item>
+        <item name="android:layout_height">@dimen/aurora_height_msg_avatar</item>
+        <item name="android:layout_alignParentLeft">true</item>
+        <item name="android:layout_marginLeft">8dp</item>
+        <item name="android:layout_marginRight">4dp</item>
+        <item name="android:scaleType">fitXY</item>
+    </style>
+
+    <style name="aurora_msgitem_sender_avatar_style">
+        <item name="android:layout_width">@dimen/aurora_width_msg_avatar</item>
+        <item name="android:layout_height">@dimen/aurora_height_msg_avatar</item>
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:layout_marginRight">8dp</item>
+        <item name="android:layout_marginLeft">4dp</item>
+        <item name="android:scaleType">fitXY</item>
+    </style>
+
+    <style name="aurora_msgitem_msg_txt_style">
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:clickable">true</item>
+        <item name="android:focusable">true</item>
+    </style>
+
+    <style name="ChatHeaderLayout">
+        <item name="android:padding">8dp</item>
+        <item name="android:layout_marginTop">4dp</item>
+        <item name="android:layout_marginBottom">4dp</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <!-- Dialog样式-->
+    <style name="DialogTheme" parent="@android:style/Theme.Dialog">
+        <!-- 边框 -->
+        <item name="android:windowFrame">@null</item>
+        <!-- 是否浮现在activity之上 -->
+        <item name="android:windowIsFloating">true</item>
+        <!-- 半透明 -->
+        <item name="android:windowIsTranslucent">true</item>
+        <!-- 无标题 -->
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:background">@android:color/transparent</item>
+        <!-- 背景透明 -->
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <!-- 模糊 -->
+        <item name="android:backgroundDimEnabled">true</item>
+        <!-- 遮罩层 -->
+        <item name="android:windowEnableSplitTouch">false</item>
+        <item name="android:splitMotionEvents">false</item>
+
+    </style>
+
+    <style name="AppTheme.Label">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:singleLine">true</item>
+    </style>
+
+    <style name="myRatingBar">
+        <item name="android:progressDrawable">@drawable/ratingbar_drawable</item>
+        <item name="android:minHeight">@dimen/dp_18</item>
+        <item name="android:maxHeight">@dimen/dp_18</item>
+    </style>
+
+    <style name="myRatingBar1">
+        <item name="android:progressDrawable">@drawable/ratingbar_drawable1</item>
+        <item name="android:minHeight">@dimen/dp_12</item>
+        <item name="android:maxHeight">@dimen/dp_12</item>
+    </style>
+
+    <style name="DINAlternate">
+        <item name="android:fontFamily">@font/dinalternate</item>
+    </style>
+
+    <style name="MineRedDots">
+        <item name="android:layout_width">@dimen/dp_18</item>
+        <item name="android:layout_height">@dimen/dp_18</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">@dimen/text_11</item>
+        <item name="android:visibility">gone</item>
+        <item name="android:background">@drawable/module_mine_shape_count</item>
+    </style>
+
+    <style name="BottomButtonStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">@dimen/text_16</item>
+        <item name="android:background">@drawable/selector_f54f76_ff5858_25dp</item>
+    </style>
+</resources>
