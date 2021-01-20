@@ -27,7 +27,7 @@ public class MainActivity extends BaseActivity<ActivityMainBinding> {
 
     @Override
     protected void initData() {
-        String str1 = MyUtils1.getS();
+        String str1 = MyUtils1.getS1();
     }
 
     @Override

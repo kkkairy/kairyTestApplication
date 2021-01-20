@@ -13,7 +13,6 @@
     <style name="FullScreen" parent="AppTheme">
         <item name="android:windowFullscreen">true</item>
         <item name="android:fitsSystemWindows">true</item>
-        <!--<item name="android:windowBackground">@drawable/launche_activity_back</item>-->
     </style>
     <!--自定义linearlayout可以换行显示-->
     <declare-styleable name="AutoLineFeedLinearLayout">
@@ -23,29 +22,10 @@
         <attr name="auto_line_top" format="dimension" />
     </declare-styleable>
 
-    <style name="SplashTheme" parent="AppTheme">
-        <item name="android:windowBackground">@drawable/bg_splash</item>
-        <item name="android:fitsSystemWindows">true</item>
-    </style>
 
     <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.ActionBar" />
 
     <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
-
-    <style name="SteepScreen" parent="AppTheme">
-        <!--<item name="android:windowFullscreen">true</item>-->
-    </style>
-
-    <!--底部popup-->
-    <style name="popupStyle" parent="android:Animation">
-        <item name="android:windowEnterAnimation">@anim/dialog_enter</item>
-        <item name="android:windowExitAnimation">@anim/dialog_exit</item>
-    </style>
-
-    <style name="AnimBottom" parent="@android:style/Animation">
-        <item name="android:windowEnterAnimation">@anim/push_bottom_in</item>
-        <item name="android:windowExitAnimation">@anim/push_bottom_out</item>
-    </style>
 
     <style name="TabLayoutTextStyle">
         <item name="android:textSize">16sp</item>
@@ -283,22 +263,6 @@
         <item name="android:layout_height">wrap_content</item>
         <item name="android:gravity">center_vertical</item>
         <item name="android:singleLine">true</item>
-    </style>
-
-    <style name="myRatingBar">
-        <item name="android:progressDrawable">@drawable/ratingbar_drawable</item>
-        <item name="android:minHeight">@dimen/dp_18</item>
-        <item name="android:maxHeight">@dimen/dp_18</item>
-    </style>
-
-    <style name="myRatingBar1">
-        <item name="android:progressDrawable">@drawable/ratingbar_drawable1</item>
-        <item name="android:minHeight">@dimen/dp_12</item>
-        <item name="android:maxHeight">@dimen/dp_12</item>
-    </style>
-
-    <style name="DINAlternate">
-        <item name="android:fontFamily">@font/dinalternate</item>
     </style>
 
     <style name="MineRedDots">
