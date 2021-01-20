@@ -46,29 +46,6 @@ public class Test3Activity extends BaseActivity<ActivityTest3Binding> {
         binding.vpContent.setOffscreenPageLimit(2);
     }
 
-    public class MyPagerViewAdapter extends FragmentPagerAdapter {
-        public MyPagerViewAdapter(FragmentManager fm) {
-            super(fm, BEHAVIOR_RESUME_ONLY_CURRENT_FRAGMENT);
-        }
-
-        @NonNull
-        @Override
-        public Fragment getItem(int position) {
-            return fragmentList.get(position);
-        }
-
-        @Override
-        public int getCount() {
-            return fragmentList.size();
-        }
-
-        @Nullable
-        @Override
-        public CharSequence getPageTitle(int position) {
-            return titles[position];
-        }
-    }
-
     @Override
     protected void initData() {
 
@@ -105,6 +82,29 @@ public class Test3Activity extends BaseActivity<ActivityTest3Binding> {
 
             }
         });
+    }
+
+    public class MyPagerViewAdapter extends FragmentPagerAdapter {
+        public MyPagerViewAdapter(FragmentManager fm) {
+            super(fm, BEHAVIOR_RESUME_ONLY_CURRENT_FRAGMENT);
+        }
+
+        @NonNull
+        @Override
+        public Fragment getItem(int position) {
+            return fragmentList.get(position);
+        }
+
+        @Override
+        public int getCount() {
+            return fragmentList.size();
+        }
+
+        @Nullable
+        @Override
+        public CharSequence getPageTitle(int position) {
+            return titles[position];
+        }
     }
 
     /**

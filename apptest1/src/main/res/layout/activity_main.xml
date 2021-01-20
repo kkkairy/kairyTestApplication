@@ -52,6 +52,7 @@
                 android:text="SlidingTabLayout+viewPager切换"
                 android:textSize="14dp" />
         </LinearLayout>
+
         <TextView
             android:id="@+id/tv_go4"
             android:layout_width="wrap_content"
@@ -59,8 +60,17 @@
             android:layout_gravity="center_horizontal"
             android:layout_marginTop="50dp"
             android:gravity="center"
-            android:text="切换activity动画"
+            android:text="Kotlin测试"
             android:textSize="14dp" />
 
+        <TextView
+            android:id="@+id/tv_go5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="50dp"
+            android:gravity="center"
+            android:text="约束布局+折叠布局（）"
+            android:textSize="14dp" />
     </LinearLayout>
 </layout>

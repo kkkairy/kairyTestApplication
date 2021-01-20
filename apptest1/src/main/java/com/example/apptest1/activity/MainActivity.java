@@ -53,5 +53,7 @@ public class MainActivity extends BaseActivity<ActivityMainBinding> {
         });
         //Kotlinshi使用
         binding.tvGo4.setOnClickListener(view -> startActivity(new Intent(this, Test4Activity.class)));
+        //约束布局+折叠布局
+        binding.tvGo5.setOnClickListener(view -> startActivity(new Intent(this, Test5Activity.class)));
     }
 }
